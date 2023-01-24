@@ -1,0 +1,63 @@
+*{
+    font-family: 'Montserrat';
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 115, 209)
+}
+.todo{
+    position: absolute;
+    top: 40%;
+    transform: translate((-50%,-50%));
+    left: 25%;
+   
+}
+#unos{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(65, 61, 61);
+    border: 0px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.todo button{
+    padding: 15px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.lista{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    min-height: 200px;
+    width: 700px;
+    background-color: rgb(33, 16, 109);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: center;
+
+}
+#obrisi{
+    padding: 15px;
+    background-color: black;
+    color: rgb(184, 20, 61);
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.item{
+    
+}
+h1{
+    position: relative;
+    left: 40%;
+    max-width: 250px;
+}
